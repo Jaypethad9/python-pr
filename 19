@@ -1,0 +1,4 @@
+numbers = input("Enter the numbers separated by spaces: ").split()
+numbers = [int(num) for num in numbers]
+largest = max(numbers)
+print("Largest number in the list:", largest) 
