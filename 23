@@ -1,0 +1,4 @@
+lst = input("Enter the elements of the list separated by spaces: ").split()
+lst = [int(item) for item in lst]
+even_items = [item for item in lst if item % 2 == 0]
+print("Even items of the list:", even_items)
