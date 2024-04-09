@@ -1,0 +1,8 @@
+def usd_to_inr(usd_amount):
+    exchange_rate = 75.0  # Exchange rate: 1 USD = 75 INR
+    inr_amount = usd_amount * exchange_rate
+    return inr_amount
+
+usd_amount = float(input("Enter amount in U.S. dollars: "))
+inr_amount = usd_to_inr(usd_amount)
+print(f"{usd_amount} USD is equal to {inr_amount} INR")
