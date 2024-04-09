@@ -1,0 +1,4 @@
+numbers = input("Enter the numbers separated by spaces: ").split()
+numbers = [int(num) for num in numbers]
+smallest = min(numbers)
+print("Smallest number in the list:", smallest)
