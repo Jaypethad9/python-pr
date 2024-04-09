@@ -1,0 +1,3 @@
+lst = input("Enter the elements of the list separated by spaces: ").split()
+reversed_lst = lst[::-1]
+print("Reversed list:", reversed_lst)
